@@ -14,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="30sp"
-            android:text="@string/menu_favorites"/>
+            android:text="@string/coffee_favorites"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"

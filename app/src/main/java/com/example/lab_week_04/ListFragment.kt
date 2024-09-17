@@ -7,28 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [ListFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class ListFragment : Fragment() {
-
-//    private lateinit var coffeeListener: CoffeeListener;
-//
-//    override fun onAttach(context: Context) {
-//        super.onAttach(context)
-//        if (context is CoffeeListener) {
-//            coffeeListener = context
-//        } else {
-//            throw RuntimeException("Must implement CoffeeListener")
-//        }
-//    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -68,8 +47,6 @@ class ListFragment : Fragment() {
 // coffee -> coffeeListener.onSelected(coffee.id)
 // }
 // }
-
-
     companion object {
         const val COFFEE_ID = "COFFEE_ID"
     }
