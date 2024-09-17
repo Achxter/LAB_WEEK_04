@@ -43,26 +43,5 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="@string/latte_title" />
-
-        <TextView
-            android:id="@+id/starbucks"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/starbucks_title" />
-
-        <TextView
-            android:id="@+id/janjijiwa"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/janjijiwa_title" />
-
-        <TextView
-            android:id="@+id/kopikenangan"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/kopikenangan_title" />
     </LinearLayout>
 </ScrollView>

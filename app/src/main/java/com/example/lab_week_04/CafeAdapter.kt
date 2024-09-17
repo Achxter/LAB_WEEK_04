@@ -21,7 +21,6 @@ class CafeAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) : Frag
     override fun getItemCount(): Int {
         return TABS_FIXED.size
     }
-
     override fun createFragment(position: Int): Fragment {
         return CafeDetailFragment()
     }
