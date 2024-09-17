@@ -67,16 +67,6 @@ class DetailFragment : Fragment() {
                 coffeeTitle?.text = getString(R.string.latte_title)
                 coffeeDesc?.text = getString(R.string.latte_desc)
             }
-
-            R.id.mocha -> {
-                coffeeTitle?.text = getString(R.string.mocha_title)
-                coffeeDesc?.text = getString(R.string.mocha_desc)
-            }
-
-            R.id.cappucino -> {
-                coffeeTitle?.text = getString(R.string.cappucino_title)
-                coffeeDesc?.text = getString(R.string.cappucino_desc)
-            }
         }
     }
 
